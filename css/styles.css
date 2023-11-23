@@ -1,0 +1,567 @@
+/*=============== COMON  STYLYS============================*/
+
+.list{
+    list-style-type:none;
+}
+
+.link{
+    text-decoration:none;
+}
+button{
+    cursor: pointer;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+         /**---- h2 OUT BENEFITS: NONE---*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+/*================= COMON STYLYS =============================*/
+
+/*===================== BODY =================================*/
+
+.body-main{
+    background: #FFF;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+}
+
+/*================ COMON  STYLES ==============================*/
+
+
+/*================= HEDER STYLES ==============================*/
+
+.container-heder{
+display:flex;
+justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
+width: 1158px; 
+padding: 0 15px;
+}
+.header-main{
+   
+    border-bottom: 1px solid #e7e9fc;
+}
+
+/*.container-heder-main{
+    display: flex; 
+}*/
+
+
+/*navigation + header*/
+
+.main-navi{
+    display:flex;
+    align-items: center;
+    margin-right: 76px;
+    gap: 40px;
+    margin-right: 76px;
+
+}
+.main-navi-link{
+    padding: 24px 0;
+
+}
+
+.main-navigation{
+    justify-content: space-between;
+    width: 456px;
+    height: 72px;
+    flex-shrink: 0;
+    
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+    align-items: center;
+    display:flex;
+   }
+
+
+.main-logo{
+    display: flex;
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-right: 76px;
+ 
+}
+.logo{
+    color: var(--IRIS, #4D5AE5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing:0.03em;
+    text-transform: uppercase;
+}
+.span-main{
+    color: #2e2f42;
+    }
+
+    .menu{
+    display: flex;
+    column-gap: 40px;
+    gap: 40px;
+ 
+    
+}
+
+.menu-item{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5; /* 150% */
+    letter-spacing:0.02em;
+    
+}
+.menu-item:hover{
+    color: #404bbf;
+}
+.menu-item:focus{
+    color: #404bbf;
+}
+.main-link{
+    display: block;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+    color:#2e2f42; 
+    padding-top:  24px;
+    padding-bottom: 24px;
+
+}
+.main-link:hover,:focus{
+    color: #404bbf;
+}
+/* ========================= ADRES =========================== */
+
+.main-adress-navi{
+    display: flex;
+    gap: 40px;
+}
+.menu-adress{
+    display: flex;
+    column-gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
+
+}
+
+.main-link-adress{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+    
+.main-link-adress:hover,
+.main-link-adress:focus{
+     color: #404bbf;
+        }
+
+
+
+.menu-adress-item{
+    color: var(--SLATE, #434455);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing:0.02em;
+}
+/*========================== ADRES ===============================*/
+
+/*========================== SECTION 1 ============================*/
+.container-first{
+    height: 600px;
+    flex-shrink: 0;
+
+}
+
+.main-section-one{
+    background-color: #2e2f42; 
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    letter-spacing:0.02em;
+    padding: 188px 0;
+  
+}
+
+/*.container-effective{}*/
+
+.title-efectiwe{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em; 
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    max-width: 496px;
+}
+.button-main{
+    color: var(--WHITE, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.64px;
+    background: var(--IRIS, #4D5AE5);
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--WHITE, #FFF);
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    color: var(--WHITE, #FFF);
+    /* Button Text */
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+    
+}
+.button-main:hover{
+    background-color: #404BBF;
+}
+.button-main:focus{
+    background-color: #404BBF;
+}
+
+/*=============================SECTION 1 ================================*/
+
+/*============================section 2 =================================*/
+
+.section-benefits{
+    color: var(--WHITE, #FFF);
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    letter-spacing: 1.12px;
+    padding: 120px 0 120px;
+}
+.container-benefits{}
+
+
+.menu-wrap{
+   
+    align-items:flex-start;
+    flex-wrap: wrap;
+    gap:24;
+
+}
+
+.title-two{ 
+    font-weight: 500;
+    line-height: 1.2;
+}
+.menu-item-next{
+   
+    flex-direction: column;
+    width:calc((100% - 72px) / 4);
+    margin-bottom: 8px;
+    
+}
+.three-title{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 1.2;
+    display: flex;
+width: 264px;
+flex-direction: column;
+align-items: flex-start;
+margin-bottom: 8px;
+}
+.paragraph{
+    color: var(--SLATE, #434455);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    line-height: 1.5;
+
+ }
+ /*============================ SECTION 2 =============================*/
+
+ /*============================= SECTION 3==============================*/
+
+
+.section-three-main{
+     flex-shrink: 0;
+     background: var(--CLOUD, #F4F4FD);
+     padding: 120px 0;
+ 
+}
+.title-two{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    line-height: 1.11;
+    font-weight: 500;
+   
+    margin-bottom: 72px;
+   
+  
+}
+ .menu-list{
+    list-style: none;
+    border-radius: 0px 0px 4px 4px;
+    display: inline-flex;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+ }
+
+          
+/*.list{}*/
+
+
+.menu-item{
+    background: #FFFFFF;
+    display: inline-flex;
+padding-bottom: 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 0px 0px 4px 4px;
+
+
+}
+
+.menu-item-border{ 
+    border: 1px solid #e7e9fc;
+    width: calc((100% - 72px) / 4); 
+
+}
+.foto{
+    justify-content: center;
+    background: var(--WHITE, #FFF);}
+
+.three-title-foto{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 1.2;
+margin-bottom: 8px;
+}
+
+.paragraph-foto{
+    color: var(--SLATE, #434455);
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.name-portfolio{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.container-three{
+    padding-bottom: 120px;
+}
+.container{}
+
+/*======================== SECTION 3 ===================================*/
+
+/*======================== Section 4====================================*/
+
+.section-four-main{
+        padding: 120px 0 120px 0;
+}
+/*.portfolio-last{
+    flex-wrap: wrap;
+}*/
+
+.title-portfolio{
+
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;  
+    margin-bottom: 72px;
+    }
+
+/*.menu{ }*/
+.menu-item-new{
+    width: calc((100% - 48px) / 3);
+}
+.foto-google{
+    flex-shrink: 0;
+ 
+    background: var(--WHITE, #FFF);
+}
+
+.three-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/*.menu-wrap{}---є на верху ще секція 2*/
+
+.name-portfolio-foto{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
+.container-four{
+    padding-bottom: 120px;
+    border-top: none; 
+    
+}
+.container{
+    border-top: none;
+}
+/*.paragraph{} */
+
+/*======================== SECTION 4 ====================================*/
+
+
+/*========================= FOOTER ========================================*/
+
+.basement{
+    background-color: #2e2f42;
+    padding: 100px 0 0 156px;
+    padding: 100px 0;
+
+}
+.link-basement{
+
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    display: inline-block;
+    
+width: 44px;
+height: 21px;
+margin-bottom: 16px;
+ 
+
+
+
+}
+.span-basement{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+
+   
+width: 71px;
+height: 21px;
+
+
+}
+.logo-main-studio{
+    flex-shrink: 0;
+    display: inline-block;
+}
+
+
+.paragraph-basement{
+    color: var(--CLOUD, #F4F4FD);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.32px;
+    width: 264px;
+ 
+}
+
+
+.container-endee{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+height: 156px;
+flex-shrink: 0;
+
+
+}
+
+
+
+
+/*==================================== FOOTER ================================*/
+
+/*================================== BODY ====================================*/
